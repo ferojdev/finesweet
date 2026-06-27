@@ -1,3 +1,39 @@
+/* =================================================
+              common title start
+==================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.common-title h2{
+    font-size: 48px;
+font-weight: 600;
+font-family: "Poppins", sans-serif;
+line-height: 64px;
+color: #282938;
+padding-bottom: 16px;
+}
+.common-title p{
+    font-size: 16px;
+font-weight: 400;
+font-family: "Poppins", sans-serif;
+line-height: 28px;
+color: #282938;
+width: 400px;
+}
+/* =================================================
+              common title end
+==================================================== */
 nav{
     background: #1C1E53;
 }
@@ -36,6 +72,11 @@ font-family: "Poppins", sans-serif;
 /* ======================================
            navbar part end
 ========================================= */
+
+
+/* ======================================
+           banner part start
+========================================= */
 .banner{
     background: #1C1E53;
     padding: 126px 0px;
@@ -57,7 +98,7 @@ padding-top: 24px;
 padding-bottom: 48px;
 
 }
-.banner-btn{
+.banner .banner-btn{
     border-radius: 41px;
 font-size: 18px;
 font-weight: 600;
@@ -65,9 +106,117 @@ font-family: "Poppins", sans-serif;
 padding: 16px 48px;
 color: #1B1C2B;
 background: #FCD980;
+display: inline-block;
+ border: 2px solid #FCD980;
+
 }
 .banner-btn:hover{
     background: transparent;
  border: 2px solid #BBBBCB;
 color: white;   
 }
+.banner .banner-btn-pricing{
+font-size: 16px;
+font-weight: 500;
+font-family: "Poppins", sans-serif;
+color: #ffffff;
+margin-left: 30px;
+position: relative;
+display: inline-block;
+overflow: hidden;
+}
+.banner .banner-btn-pricing:hover{
+    overflow: visible;
+}
+.banner .banner-btn-pricing i{
+position: absolute;
+top: 50%;
+right: -30px;
+transform: translateY(-50%);
+transition: .9s;
+}
+.banner .banner-btn-pricing:hover i{
+    right: -50px;
+    
+    
+}
+.box{
+display: flex;
+align-items: center;
+}
+/* ======================================
+           banner part end
+========================================= */
+/* ======================================
+           work part start
+========================================= */
+.work{
+    padding: 128px 0px;
+    color: #F4F6FC;
+}
+.work .get-in-touch{
+position: relative;
+}
+.work .get-in-touch a{
+    font-size: 18px;
+font-weight: 500;
+font-family: "Poppins", sans-serif;
+color: #2405F2;
+}
+.work .get-in-touch i{
+position: absolute;
+top: 50%;
+left: 190px;
+transform: translateY(-50%);
+color: #2405F2;
+transition: .4s;
+
+}
+.work .get-in-touch:hover i{
+left: 210px;
+}
+.work .col-lg-7 .row{
+    column-gap: 48px;
+}
+.work .col-lg-7 h3{
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-size: 32px;
+color: #282938;
+padding-top: 16px;
+padding-bottom: 8px;
+
+}
+.work .col-lg-7 p{
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #282938;
+width: 295px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+           work part end
+========================================= */
