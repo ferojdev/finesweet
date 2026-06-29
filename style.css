@@ -31,14 +31,21 @@ line-height: 28px;
 color: #282938;
 width: 400px;
 }
+.box{
+display: flex;
+}
 /* =================================================
               common title end
+==================================================== */
+/* =================================================
+              navbar part start
 ==================================================== */
 nav{
     background: #1C1E53;
 }
 a{
     text-decoration: none;
+    column-gap: 320px;
 }
 .nav-btn{
     border: 2px solid #BBBBCB;
@@ -65,10 +72,12 @@ background: #FCD980;
     font-size: 16px;
 font-weight: 500;
 font-family: "Poppins", sans-serif;
+column-gap: 32px;
 }
 .nav-link:hover{
     color: yellow;
 }
+
 /* ======================================
            navbar part end
 ========================================= */
@@ -80,6 +89,9 @@ font-family: "Poppins", sans-serif;
 .banner{
     background: #1C1E53;
     padding: 126px 0px;
+}
+.box{
+align-items: center;
 }
 .banner h1{
     color: white;
@@ -140,10 +152,7 @@ transition: .9s;
     
     
 }
-.box{
-display: flex;
-align-items: center;
-}
+
 /* ======================================
            banner part end
 ========================================= */
@@ -154,16 +163,16 @@ align-items: center;
     padding: 128px 0px;
     color: #F4F6FC;
 }
-.work .get-in-touch{
+.get-in-touch{
 position: relative;
 }
-.work .get-in-touch a{
+.get-in-touch a{
     font-size: 18px;
 font-weight: 500;
 font-family: "Poppins", sans-serif;
 color: #2405F2;
 }
-.work .get-in-touch i{
+.get-in-touch i{
 position: absolute;
 top: 50%;
 left: 190px;
@@ -172,11 +181,11 @@ color: #2405F2;
 transition: .4s;
 
 }
-.work .get-in-touch:hover i{
+ .get-in-touch:hover i{
 left: 210px;
 }
 .work .col-lg-7 .row{
-    column-gap: 48px;
+    
 }
 .work .col-lg-7 h3{
 font-family: "Poppins", sans-serif;
@@ -196,27 +205,49 @@ color: #282938;
 width: 295px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
            work part end
+========================================= */
+/* ======================================
+           project part start
+========================================= */
+.project .box{
+    justify-content: space-between;
+    align-items: center;
+}
+.project .get-in-touch a{
+    margin-right: 30px;
+    padding-top: -100px;
+    color: #282938;
+}
+.project .get-in-touch i{
+left: 95px;
+    color: #282938;
+
+}
+
+.project .get-in-touch:hover i{
+    left: 113px;
+}
+
+
+.project .col-lg-8{
+    position: relative;
+    /* overflow: hidden; */
+}
+.project .overlay{
+    width: 0%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+.project .col-lg-8:hover .overlay{
+    width: 52%;
+}
+
+/* ======================================
+           project part end
 ========================================= */
